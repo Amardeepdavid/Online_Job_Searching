@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/ddd" >
+
+ <Button
+     android:id="@+id/Button01"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignBaseline="@+id/imageView3"
+     android:layout_alignBottom="@+id/imageView3"
+     android:layout_alignParentRight="true"
+     android:layout_marginRight="45dp"
+     android:background="@android:color/transparent"
+     android:drawableTop="@drawable/resume"
+     android:text="Resumes"
+     android:textColor="@android:color/white"
+     android:textSize="25dp" />
+
+ <Button
+     android:id="@+id/imageView3"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_alignParentTop="true"
+     android:layout_marginTop="78dp"
+     android:layout_toLeftOf="@+id/Button02"
+     android:background="@android:color/transparent"
+     android:drawableTop="@drawable/p"
+     android:text="jop post"
+     android:textColor="@android:color/white"
+     android:textSize="25dp" />
+
+ <Button
+     android:id="@+id/Button02"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_below="@+id/Button01"
+     android:layout_centerHorizontal="true"
+     android:layout_marginTop="44dp"
+     android:background="@android:color/transparent"
+     android:drawableTop="@drawable/d"
+     android:text="Exit"
+     android:textColor="@android:color/white"
+     android:textSize="25dp" />
+    
+</RelativeLayout>
